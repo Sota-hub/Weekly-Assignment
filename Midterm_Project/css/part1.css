@@ -1,0 +1,154 @@
+#thumbnail_img {
+  height: auto;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+#thumbnail_heading {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#thumbnail_heading h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.125;
+  margin: 0;
+}
+
+#thumbnail_heading p {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#thumbnail_heading div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0 22px;
+}
+
+#thumbnail_heading a {
+  width: 170px;
+  background-color: #ff4a32;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  transition: background 0.2s ease-in-out;
+}
+
+#thumbnail_heading a:hover {
+  background: #626262;
+}
+
+#middle_img {
+  max-width: 100%;
+  height: 83px;
+}
+
+#second_heading {
+  height: 250px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#second_heading h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 22px 0 22px;
+}
+
+#second_heading p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#second_heading div {
+  border: 1px solid #cfcfcf;
+  width: 70px;
+  margin: 40px auto 0;
+}
+
+#second_block {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#second_block .img {
+  width: 100%;
+  height: 100%;
+}
+
+#img1 {
+  display: block;
+  width: 85%;
+  height: 85%;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#img2 {
+  display: block;
+  width: 85%;
+  height: 85%;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#second_block img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+#second_block img:hover {
+  transform: scale(1.1);
+}
+
+.word_in_picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  align-items: center;
+}
+
+.word_in_picture span {
+  font-size: 48px;
+  font-size: 62px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.word_in_picture h2 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.word_in_picture p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: center;
+}

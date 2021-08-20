@@ -1,0 +1,109 @@
+#middle_main_img {
+  height: auto;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+#middle_heading {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#middle_heading h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.125;
+  margin: 0;
+}
+
+#middle_heading p {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 75%;
+  margin: 15px auto 10px;
+}
+
+#middle_heading div {
+  margin: 0 auto;
+  max-width: 414px;
+  padding: 10px 0 22px;
+}
+
+#middle_heading a {
+  background-color: #ff4a32;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 70px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  transition: background 0.2s ease-in-out;
+}
+
+#middle_heading a:hover {
+  background: #626262;
+}
+
+#middle_gallery {
+  width: 100%;
+  padding: 45px 0;
+}
+
+#middle_gallery div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#middle_gallery div > div {
+  display: block;
+  width: 100%;
+  margin: auto 0;
+}
+
+#middle_gallery img {
+  width: 80%;
+}
+
+#img1 {
+  float: right;
+}
+
+#img2 {
+  margin: 6px 35px 0;
+}
+
+#middle_gallery > div h2 {
+  font-size: 32px;
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+
+#middle_gallery > div p {
+  margin: 0 0 20px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 82%;
+}
+
+#middle_gallery > div a {
+  background-color: #ff4a32;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  transition: background 0.2s ease-in-out;
+}
+
+#middle_gallery a:hover {
+  background: #626262;
+}

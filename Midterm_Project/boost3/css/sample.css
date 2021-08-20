@@ -1,0 +1,93 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hover-scale {
+  display: flex;
+  height: 10rem;
+}
+
+.image-bg {
+  background-color: black;
+  width: 479.98px;
+  height: 479.98px;
+  overflow: hidden;
+}
+.image1{
+  position: relative;
+  background-image: url(../images/image1.jpg);
+  background-size: cover;
+}
+.image2{
+  background-image: url(../images/image2.jpg);
+  background-size: cover;
+}
+.image3{
+  background-image: url(../images/image3.jpg);
+  background-size: cover;
+}
+.image-container {
+  height: 100%;
+  background-size: cover;
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
+.image-container {
+  opacity: 0.8;
+  width: 100%;
+}
+
+.image-container:hover {
+  width: 120%;
+}
+.left{
+  color: aliceblue;
+  position: absolute;
+  top: 200px;
+  right: 78%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.leftb{
+  color: aliceblue;
+  position: absolute;
+  top: 230px;
+  right: 83%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.left2{
+  color: aliceblue;
+  position: absolute;
+  top: 200px;
+  right: 44%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.leftb2{
+  color: aliceblue;
+  position: absolute;
+  top: 230px;
+  right: 48%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.left3{
+  color: aliceblue;
+  position: absolute;
+  top: 200px;
+  right: 10%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.leftb3{
+  color: aliceblue;
+  position: absolute;
+  top: 230px;
+  right: 14%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
